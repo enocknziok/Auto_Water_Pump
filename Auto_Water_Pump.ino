@@ -1,15 +1,12 @@
-//A0 = Sensor In
-//A5 = Relay Out
+int input = A0; //Magnetic Sensor In
+int output = A5; //Relay Out
 
-int input = A0;
-int output = A5;
-
-int state = 1;
-
-int maxSecondsOn = 120;
+int maxSecondsOn = 120; 
 int minSecondsOn = 30;
 
+int state = 1;
 int secondsOn = 0;
+
 
 void setup()
 {
